@@ -250,7 +250,7 @@ func init() {
 	cmd.PersistentFlags().BoolVar(
 		&releaseNotesOpts.dependencies,
 		"dependencies",
-		true,
+		false,
 		"Add dependency report",
 	)
 
